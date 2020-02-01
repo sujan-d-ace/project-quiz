@@ -1,0 +1,274 @@
+body{
+	margin: 0px;
+	border: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+background-size:110px 200px;
+background-repeat:repeat-x;
+}
+
+/* -------------------------------------side menu bar---------------------------------------- */
+
+.menu{
+	color: #fff;
+	height: 100%;
+	width: 235px;
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	background-color: #111;
+	overflow-x: hidden;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+.menu .fa{
+	background-color: #000;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+
+.menubar p{
+	font-size: 25px;
+	color: #000;
+	padding: 6px 0px 6px 0px;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 62px;
+	background-color: #556b2f;
+	margin-bottom: 2px;
+}
+
+.menu a{
+	padding: 6px 0px 6px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+	border: none;
+	background: none;
+	width: 92%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+	border-bottom: solid 1px #f0ffff;
+
+	margin-bottom: 2px;
+}
+
+.menu a:hover{
+	cursor: pointer;
+	background-color: #fff;
+	color: #333;
+	border-radius: 5px;
+}
+
+.nav{
+	height: 61px;
+	background-color: #000;
+}
+
+#sticky{
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+}
+
+#logo{
+	text-transform: uppercase;
+	background-color: #fff;
+	color: #000;
+	padding: 10px 16px ;
+	border-radius: 6px;
+	font-family: arial;
+	font-size: 20px;
+	mix-blend-mode: screen;
+	box-shadow: 0 4px #1e90ff, 0 0 60px #1e90ff;	
+	opacity: 0.9;
+	margin-left: 30px;
+}
+
+#logo:hover{
+	cursor: pointer;
+	text-transform: uppercase;
+	background-color: #fff;
+	color: #000;
+	padding: 10px 16px;
+	border-radius: 6px;
+	font-family: arial;
+	font-size: 20px;
+	mix-blend-mode: screen;
+	box-shadow: 0 6px #1e90ff, 0 0 80px #ffd700;
+	opacity: 0.9;
+}
+
+.user{
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 18px;
+	float: right;
+	color: #fff;
+	padding: 5px;
+	border-radius: 40%;
+	background-color: #dc143c;
+	opacity: 0.8;
+	margin-right: 12px;
+}
+
+.user .fa{
+	background-color: #00ff00;
+	color: #000;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;	
+}
+
+.seeuser{
+	margin-right: 10px;
+	text-transform: uppercase;
+	margin-top: 9px;
+	text-shadow: 
+        1px 2px 0px #000, 
+        2px 3px 0px #000,
+        3px 4px 0px #000;
+}
+
+
+span{
+	float: left;
+	margin: 6px 0px 0px 10px;
+}
+
+/* -------------------------------------main content---------------------------------------- */
+
+.main{
+	margin-left: 300px;
+	margin-right: 80px;
+	font-size: 20px;
+	margin-top:63px;
+	margin-bottom: 2px
+}
+
+
+.head{
+    font-size: 34px;
+    color: #eee8aa;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 75px;
+    text-shadow: 
+        2px 3px 2px #00bfff, 
+        3px 2px 2px #999,
+        4px 5px 2px #000;
+    text-transform: uppercase;
+
+}
+
+.qno{
+	margin-left: 360px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width: 290px;
+	height: auto;
+	padding: 8px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 8px;
+	background: linear-gradient(to right, #778899, #b0c4de);
+	box-shadow: 5px 5px #000;
+}
+
+.content{
+	width: 980px;
+	height: auto;
+	margin-top: 20px;
+	background-color: #fcfcfc;
+	outline: 1px solid #2f4f4f;
+	outline-style: span;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	margin-bottom: 80px;
+	border-radius: 8px;
+	outline: none;
+	border-style: dashed;
+	border-color: #dc143c;
+	border-width: 1.2px;
+}
+
+.detail{
+	margin-left: 20px;
+	border: none;
+	width: 96%;
+	text-align: left;
+	background-color: #d8bfd8;
+	opacity: 0.8;
+	word-spacing: 6px;
+	color: #228b22;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	content: justify;
+	text-align: justify-all;
+	line-height: 40px;
+}
+
+.detail div{
+	padding: 10px;
+	padding-bottom: 5px;
+}
+
+.detail li{
+	margin-left: 73px;
+	color: red;
+}
+
+.detail div::first-letter{
+	font-size: 40px;
+	color: #dc143c;
+}
+
+.detail1 p::first-letter{
+	font-size: 50px;
+	color: #000;
+}
+
+.detail1{
+	margin-left: 20px;
+	border: none;
+	width: 96%;
+	text-align: left;
+	background-color: #40e0d0;
+	opacity: 0.8;
+	color: #dc143c;
+	word-spacing: 6px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	content: justify;
+	line-height: 40px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+
+}
+
+.enjoy{
+	text-align: center;
+	color: #191970;
+	font-weight: bolder;
+}
+
+
+

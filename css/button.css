@@ -1,0 +1,66 @@
+.circle{
+	width: 150px;
+	padding: 75px 0;
+	line-height: 0;
+	margin: 5px auto;
+	margin-left: 5px;
+	background: #00ffff;
+	color: #000;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 1s, color 2s;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.circle:hover{
+	background: #00ced1;
+	font-weight: bolder;
+	color: green;
+	transform: rotate(360deg);
+}
+
+.ocircle{
+	width: 160px;
+	height: 160px;
+	margin: 58px auto;
+	line-height: 0;
+	background: #1e90ff;
+	color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: background 1s;
+}
+
+.ocircle:hover{
+	background: blue;
+}
+
+.stretch a{
+	position: relative;
+	left: 625px;
+    padding: 16px 25px 16px 25px;
+    width: 150px; 
+    text-decoration: none; 
+    font-size: 22px; 
+    color: white; 
+    border-radius: 0 5px 5px 0;
+    transition: 0.3s;
+    
+}
+
+.stretch a:hover{
+	left: 738px;
+}
+
+#about{
+	top: -154px;
+	background-color: #1e90ff;
+	z-index: -1;
+}
+
+
+
+
